@@ -1,0 +1,151 @@
+@font-face {
+  src: url("/Layout-SKLB/fonts/MullerRegular.woff") format("woff"),
+  url("/Layout-SKLB/fonts/MullerRegular.woff2") format("woff2");
+  font-weight: auto;
+  font-family: Muller;
+}
+
+* {
+  /*margin: 0;*/
+}
+
+.container {
+  background: #e5e5e5;
+  margin: 30px 375px 20px 375px;
+  width: 60.9vw;
+}
+
+.header {
+  /*height: 154px;*/
+}
+
+.header-link-phone {
+  font-family: Muller, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #666666;
+}
+
+.header-link-account-decoration {
+  background-image: url("/Layout-SKLB/img/icons/Vector.svg");
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 12px;
+}
+
+.header-link-account-text {
+  left: 28px;
+}
+
+.section-special-offers-card-link {
+  background-image: url("/Layout-SKLB/img/icons/Rectangle_Right.svg");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px;
+}
+
+.svg-bathtub {
+  background-image: url("/Layout-SKLB/img/Benefits/bathtub.svg");
+  background-repeat: no-repeat;
+}
+
+.svg-hanger {
+  background-image: url("/Layout-SKLB/img/Benefits/hanger.svg");
+  background-repeat: no-repeat;
+}
+
+.svg-heating {
+  background-image: url("/Layout-SKLB/img/Benefits/heating.svg");
+  background-repeat: no-repeat;
+}
+
+.svg-hotel-key {
+  background-image: url("/Layout-SKLB/img/Benefits/hotel-key.svg");
+  background-repeat: no-repeat;
+}
+
+.svg-parking {
+  background-image: url("/Layout-SKLB/img/Benefits/parking.svg");
+  background-repeat: no-repeat;
+}
+
+.svg-reception {
+  background-image: url("/Layout-SKLB/img/Benefits/reception.svg");
+  background-repeat: no-repeat;
+}
+
+.svg-security-box {
+  background-image: url("/Layout-SKLB/img/Benefits/security-box.svg");
+  background-repeat: no-repeat;
+}
+
+.svg-swimming-pool {
+  background-image: url("/Layout-SKLB/img/Benefits/swimming-pool.svg");
+  background-repeat: no-repeat;
+}
+
+.section-accommodation-card-content {
+  background: white;
+}
+
+.accommodation-card-gray-text {
+  color: #999999;
+}
+
+.button {
+  border: 1px solid #cc9933;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 107px;
+  height: 42px;
+  padding: 13px 20px;
+  font-family: Muller, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #cc9933;
+}
+
+.button:hover,
+.button:focus {
+  background: #cc9933;
+  color: #ffffff;
+}
+
+.button:active {
+  background: #a47312;
+  color: #ffffff;
+}
+
+.section-accommodation-card {
+  width: 373px;
+  height: 440px;
+}
+
+.section-accommodation-card-link {
+  display: block;
+  position: relative;
+  background-image: url("/Layout-SKLB/img/Accommodation/41.png");
+  height: 100%;
+  width: 100%;
+}
+
+.accommodation-card-link-text {
+  position: absolute;
+  top: 373px;
+  bottom: 27px;
+  left: 54px;
+  right: 54px;
+  color: #FFFFFF;
+  font-family: Muller, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+}
+
