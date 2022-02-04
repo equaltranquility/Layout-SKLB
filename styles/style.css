@@ -6,28 +6,97 @@
 }
 
 * {
-  /*margin: 0;*/
+  margin: 0;
+  font-family: Muller, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
 }
 
 .container {
   background: #e5e5e5;
-  margin: 30px 375px 20px 375px;
-  width: 60.9vw;
+  margin: 30px auto 20px;
+  width: 1170px;
+}
+
+.button {
+  border: 1px solid #cc9933;
+  box-sizing: border-box;
+  border-radius: 10px;
+  min-width: 107px;
+  height: 42px;
+  padding: 13px 20px;
+  font-family: Muller, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #cc9933;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background: #cc9933;
+  color: #ffffff;
+}
+
+.button:active {
+  background: #a47312;
+  color: #ffffff;
 }
 
 .header {
   /*height: 154px;*/
 }
 
+.header-upper-side {
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
 .header-link-phone {
-  font-family: Muller, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
   /* identical to box height */
-
+  margin-left: 40px;
+  white-space: nowrap;
   color: #666666;
+}
+
+.header-link-phone:hover {
+  color: #cc9933;
+}
+
+.header-link-phone:focus {
+  outline: 1px solid #cc9933;
+  /*border: 1px solid #CC9933;*/
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.header-link-phone:active {
+  color: #a47312;
+  border: none;
+  outline: none;
+}
+
+.header-navbar {
+  display: flex;
 }
 
 .header-link-account-decoration {
@@ -41,11 +110,284 @@
   left: 28px;
 }
 
-.section-special-offers-card-link {
+.header-navbar {
+  display: flex;
+  margin-top: 30px;
+  height: 70px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 15px;
+  align-items: center;
+  padding: 14px 45px;
+  box-sizing: border-box;
+}
+
+.header-navbar-links {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header-navbar-links-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  margin-right: 40px;
+  /* identical to box height */
+  padding: 5px;
+  white-space: nowrap;
+  color: #666666;
+}
+
+.header-navbar-links-item:hover {
+  color: #cc9933;
+}
+
+.header-navbar-links-item:focus {
+  padding: 4px;
+  box-sizing: border-box;
+  outline: 1px solid #cc9933;
+}
+
+.header-navbar-links-item:active {
+  color: #a47312;
+}
+
+.header-navbar-buttons {
+  margin-left: auto;
+  min-height: 42px;
+}
+
+.navbar-button:not(:first-child) {
+  margin-left: 40px;
+}
+
+.section-special-offers-cards {
+  display: flex;
+}
+
+.special-offers-cards-left {
+  margin-right: 23px;
+}
+
+.special-offers-cards-left-card {
+  width: 573px;
+  height: 258px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.special-offers-cards-left-card:nth-child(1) {
+  margin-bottom: 23px;
+}
+
+.special-offers-card-price {
+  display: block;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.maldives-card {
+  background: url("/Layout-SKLB/img/Special_Offers/Rectangle 15.jpg"),
+  linear-gradient(
+    90deg,
+    rgba(48, 64, 89, 0.84) -2.9%,
+    rgba(53, 65, 83, 0) 65.7%
+  ), no-repeat center bottom;
+  background-size: cover;
+}
+
+.crete-card {
+  background-size: cover;
+  background: url("/Layout-SKLB/img/Special_Offers/Rectangle 15_.jpg"), linear-gradient(
+    90deg,
+    rgba(48, 64, 89, 0.84) -2.9%,
+    rgba(53, 65, 83, 0) 65.7%
+  ) no-repeat center bottom;
+}
+
+.special-offers-card-right {
+  width: 573px;
+  height: 540px;
+  padding: 40px;
+  border-radius: 15px;
+  background-image: url("/Layout-SKLB/img/Special_Offers/33 1.jpg"),
+  linear-gradient(
+    90deg,
+    rgba(48, 64, 89, 0.84) -2.9%,
+    rgba(53, 65, 83, 0) 65.7%
+  );
+}
+
+
+.special-offers-right-card-title {
+  display: inline-block;
+  margin-top: 170px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.special-offers-right-card-price {
+  display: block;
+
+  margin-top: 15px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.special-offers-card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  display: inline-block;
+  width: 299px;
+  color: #ffffff;
+}
+
+.special-offers-card-link {
+  margin-top: 47px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffcc66;
+  margin-right: 5px;
+}
+
+.special-offers-card-link:hover {
+  margin-right: 17px;
+}
+
+.special-offers-card-link:active {
+  color: #ffffff;
+}
+
+.section-special-offers-card-link-decoration {
   background-image: url("/Layout-SKLB/img/icons/Rectangle_Right.svg");
   background-repeat: no-repeat;
   width: 11px;
-  height: 11px;
+  height: 18px;
+}
+
+
+.section-special-offers {
+  margin-top: 70px;
+}
+
+.section-title {
+  margin-left: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+}
+
+.section-special-offers-title {
+  margin-bottom: 20px;
+}
+
+/* Benefits */
+.section-about {
+  margin-top: 70px;
+}
+
+.section-about-title {
+  margin-bottom: 11px;
+}
+
+.section-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  /* or 32px */
+  color: #000000;
+}
+
+.section-about-description {
+  width: 888px;
+  min-height: 180px;
+}
+
+.section-services {
+  margin-top: 70px;
+}
+
+.section-services-cards {
+  display: grid;
+  grid-template-columns: 573px 572px;
+  grid-row: auto;
+  grid-column-gap: 23px;
+  grid-row-gap: 23px;
+  width: 100%;
+}
+
+.section-services-card {
+  border-radius: 15px;
+  background: #FFFFFF;
+}
+
+.section-services-card-content {
+  padding: 26px 45px 50px;
+}
+
+.section-special-services-card-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  margin-right: 6px;
+  /* identical to box height, or 40px */
+  color: #CC9933;
+}
+
+.section-special-services-card-link:hover {
+  color: #E9C479;
+  margin-right: 17px;
+}
+
+.section-special-services-card-link-decoration {
+  background-image: url("/Layout-SKLB/img/icons/Rectangle_Right.svg");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 18px;
+}
+
+.section-benefits {
+  margin-top: 70px;
+}
+
+.section-benefits-cards {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 275px 275px 275px 275px;
+  grid-row: auto;
+  grid-column-gap: 23px;
+  grid-row-gap: 23px;
+  width: 100%;
+}
+
+.section-benefits-card {
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding: 40px 42px 41px 45px;
+}
+
+.section-benefits-card-image {
+  margin-bottom: 10px;
 }
 
 .svg-bathtub {
@@ -88,43 +430,58 @@
   background-repeat: no-repeat;
 }
 
-.section-accommodation-card-content {
+/* Accommodation */
+.section-accommodation {
+  margin-top: 70px;
+}
+
+.section-accommodation-card {
+  /*width: 373px;*/
   background: white;
+  height: 440px;
+  border-radius: 15px;
+}
+
+.section-accommodation-cards {
+  display: grid;
+  grid-template-columns: 374px 374px 374px;
+  grid-row: auto;
+  grid-column-gap: 23px;
+  grid-row-gap: 23px;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .accommodation-card-gray-text {
   color: #999999;
 }
 
-.button {
-  border: 1px solid #cc9933;
-  box-sizing: border-box;
-  border-radius: 10px;
-  width: 107px;
-  height: 42px;
-  padding: 13px 20px;
-  font-family: Muller, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 16px;
-  color: #cc9933;
+.section-accommodation-card-content {
+  padding: 36px 46px 41px 45px;
 }
 
-.button:hover,
-.button:focus {
-  background: #cc9933;
-  color: #ffffff;
+
+.section-accommodation-card-title {
+  display: flex;
+  align-items: baseline;
 }
 
-.button:active {
-  background: #a47312;
-  color: #ffffff;
+.accommodation-card-price {
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
-.section-accommodation-card {
-  width: 373px;
-  height: 440px;
+.accommodation-card-stars {
+  margin-left: auto;
+}
+
+.accommodation-card-place {
+  margin-top: 16px;
+  line-height: 1;
+}
+
+.accommodation-card-button {
+  margin-top: 20px;
 }
 
 .section-accommodation-card-link {
@@ -135,17 +492,24 @@
   width: 100%;
 }
 
-.accommodation-card-link-text {
+.accommodation-card-link-container {
   position: absolute;
   top: 373px;
   bottom: 27px;
   left: 54px;
   right: 54px;
-  color: #FFFFFF;
-  font-family: Muller, sans-serif;
+  white-space: nowrap;
+}
+
+.accommodation-card-link-text {
+  color: #ffffff;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 200%;
+}
+
+.accommodation-card-link-text:hover {
+  margin-right: 7px;
 }
 

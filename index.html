@@ -7,7 +7,7 @@
 </head>
 <body class="container">
 <header class="header">
-  <div class="header-upside">
+  <div class="header-upper-side">
     <div class="header-left">
       <a href="#">
         <img
@@ -34,71 +34,52 @@
     </div>
   </div>
   <nav class="header-navbar">
-    <div class="header-navbar-links">
-      <ul>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Услуги</a></li>
-        <li><a href="#">Преимущества</a></li>
-        <li><a href="#">Размещение</a></li>
-        <li><a href="#">Блог</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-    </div>
+    <ul class="header-navbar-links">
+      <li><a href="#" class="header-navbar-links-item">О нас</a></li>
+      <li><a href="#" class="header-navbar-links-item">Услуги</a></li>
+      <li><a href="#" class="header-navbar-links-item">Преимущества</a></li>
+      <li><a href="#" class="header-navbar-links-item">Размещение</a></li>
+      <li><a href="#" class="header-navbar-links-item">Блог</a></li>
+      <li><a href="#" class="header-navbar-links-item">Контакты</a></li>
+    </ul>
+
     <div class="header-navbar-buttons">
-      <a href="" class="button">Хочу тур</a>
-      <a href="" class="button">Обратный звонок</a>
+      <a href="" class="button navbar-button">Хочу тур</a>
+      <a href="" class="button navbar-button">Обратный звонок</a>
     </div>
   </nav>
 </header>
 
 <main>
   <section class="section-special-offers">
-    <h2 class="section-title">Спецпредложения</h2>
+    <h2 class="section-title section-special-offers-title">
+      Спецпредложения
+    </h2>
     <div class="section-special-offers-cards">
       <div class="special-offers-cards-left">
-        <div>
-          <strong>Мальдивские острова</strong>
-          <span>от 55 000 р</span>
-          <a href="#"
-          >Подробнее
-            <span
-            ><svg
-              width="11"
-              height="18"
-              viewBox="0 0 11 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-                    <path
-                      d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564"
-                      stroke="#FFCC66"
-                      stroke-width="2"
-                    /></svg></span
-            ></a>
+        <div class="special-offers-cards-left-card maldives-card">
+          <strong class="special-offers-card-title"
+          >Мальдивские острова</strong
+          >
+          <span class="special-offers-card-price">от 55 000 р</span>
+          <a href="#" class="special-offers-card-link">Подробнее</a>
+          <span class="section-special-offers-card-link-decoration">
+                <svg
+                  width="11"
+                  height="18"
+                  viewBox="0 0 11 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                ></svg
+                ></span>
         </div>
-        <div>
-          <strong>Горящий тур на остров Крит</strong>
-          <span>от 30 000 р</span>
-          <a href="#"
-          >Подробнее
-            <span class="section-special-offers-card-link"
-            ><svg
-              width="11"
-              height="18"
-              viewBox="0 0 11 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            ></svg>
-                </span>
-          </a>
-        </div>
-      </div>
-      <div class="special-offers-card-right">
-        <strong>Номера категории люкс</strong>
-        <span>от 5000 р </span
-        ><a href="#"
-      >Подробнее
-        <span class="section-special-offers-card-link">
+        <div class="special-offers-cards-left-card crete-card">
+          <strong class="special-offers-card-title"
+          >Горящий тур <br/>на остров Крит</strong
+          >
+          <span class="special-offers-card-price">от 30 000 р</span>
+          <a href="#" class="special-offers-card-link">Подробнее</a>
+          <span class="section-special-offers-card-link-decoration">
                 <svg
                   width="11"
                   height="18"
@@ -106,15 +87,33 @@
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 ></svg>
-              </span
-              ></a>
+              </span>
+        </div>
+      </div>
+      <div class="special-offers-card-right">
+        <strong class="special-offers-right-card-title"
+        >Номера <br/>
+          категории <br/>
+          люкс</strong
+        >
+        <span class="special-offers-right-card-price">от 5000 р </span>
+        <a href="#" class="special-offers-card-link">Подробнее</a>
+        <span class="section-special-offers-card-link-decoration">
+              <svg
+                width="11"
+                height="18"
+                viewBox="0 0 11 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              ></svg>
+            </span>
       </div>
     </div>
   </section>
 
   <section class="section-about">
-    <h2 class="section-title">О нас</h2>
-    <p class="section-description">
+    <h2 class="section-title section-about-title">О нас</h2>
+    <p class="section-description section-about-description">
       Идейные соображения высшего порядка, а также сложившаяся структура
       организации влечет за собой процесс внедрения и модернизации системы
       обучения кадров, соответствует насущным потребностям. Идейные
@@ -137,23 +136,52 @@
           />
         </div>
         <div class="section-services-card-content">
-          <a href="#"
-          >Эксклюзивное обслуживание
-            <span class="section-special-offers-card-link"
-            ><svg
-              width="11"
-              height="18"
-              viewBox="0 0 11 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            ></svg></span
-            ></a>
+          <a href="#" class="section-special-services-card-link"
+          >Эксклюзивное обслуживание</a
+          >
+          <span class="section-special-services-card-link-decoration"
+          ><svg
+            width="11"
+            height="18"
+            viewBox="0 0 11 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          ></svg
+          ></span>
           <p class="section-description">
             Равным образом постоянный количественный рост и сфера нашей
             активности
           </p>
         </div>
       </div>
+
+      <div class="section-services-card">
+        <div class="section-services-card-image">
+          <img
+            src="/Layout-SKLB/img/Services/15.png"
+            alt="Сауны, бассейны, бани, фитнес-залы"
+          />
+        </div>
+        <div class="section-services-card-content">
+          <a href="#" class="section-special-services-card-link"
+          >Аренда банкетных залов</a
+          >
+          <span class="section-special-services-card-link-decoration"
+          ><svg
+            width="11"
+            height="18"
+            viewBox="0 0 11 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          ></svg
+          ></span>
+          <p class="section-description">
+            Значимость этих проблем настолько очевидна, что дальнейшее
+            развитие различных форм.
+          </p>
+        </div>
+      </div>
+
       <div class="section-services-card">
         <div class="section-services-card-image">
           <img
@@ -162,48 +190,25 @@
           />
         </div>
         <div class="section-services-card-content">
-          <a href="#"
+          <a href="#" class="section-special-services-card-link"
           >Сауны, бассейны, бани, фитнес-залы
-            <span class="section-special-offers-card-link"
-            ><svg
-              width="11"
-              height="18"
-              viewBox="0 0 11 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            ></svg></span
-            ></a>
+          </a>
+          <span class="section-special-services-card-link-decoration"
+          ><svg
+            width="11"
+            height="18"
+            viewBox="0 0 11 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          ></svg
+          ></span>
           <p class="section-description">
             Не следует, однако забывать, что начало повседневной работы по
             формированию позиции
           </p>
         </div>
-        <div class="section-services-card">
-          <div class="section-services-card-image">
-            <img
-              src="/Layout-SKLB/img/Services/15.png"
-              alt="Сауны, бассейны, бани, фитнес-залы"
-            />
-          </div>
-          <div class="section-services-card-content">
-            <a href="#"
-            >Аренда банкетных залов
-              <span class="section-special-offers-card-link"
-              ><svg
-                width="11"
-                height="18"
-                viewBox="0 0 11 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              ></svg></span
-              ></a>
-            <p class="section-description">
-              Значимость этих проблем настолько очевидна, что дальнейшее
-              развитие различных форм.
-            </p>
-          </div>
-        </div>
       </div>
+
       <div class="section-services-card">
         <div class="section-services-card-image">
           <img
@@ -212,17 +217,18 @@
           />
         </div>
         <div class="section-services-card-content">
-          <a href="#"
-          >Охраняемые автомобильные стоянки
-            <span class="section-special-offers-card-link"
-            ><svg
-              width="11"
-              height="18"
-              viewBox="0 0 11 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            ></svg></span
-            ></a>
+          <a href="#" class="section-special-services-card-link"
+          >Охраняемые автомобильные стоянки</a
+          >
+          <span class="section-special-services-card-link-decoration"
+          ><svg
+            width="11"
+            height="18"
+            viewBox="0 0 11 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          ></svg
+          ></span>
           <p class="section-description">
             Не следует, однако забывать, что начало повседневной работы по
             формированию позиции
@@ -359,11 +365,11 @@
           alt="Lagoona española"
         />
         <div class="section-accommodation-card-content">
-              <span>
+              <span class="section-accommodation-card-title">
                 <span class="accommodation-card-gray-text">от</span>
                 <strong class="accommodation-card-price">4 698 р</strong>
-                <span class="section-description">/ ночь</span>
-                <span
+                <span>/ ночь</span>
+                <span class="accommodation-card-stars"
                 ><img
                   src="/Layout-SKLB/img/icons/star.svg"
                   alt="Рейтинг 4 из 5"/>
@@ -373,22 +379,27 @@
                   <img src="/Layout-SKLB/img/icons/star_non_active.svg" alt=""
                   /></span>
               </span>
-          <p class="section-description">Lagoona española</p>
-          <p class="accommodation-card-gray-text">Барселона, Испания</p>
-          <a href="#" class="button">Номера</a>
+          <p class="section-description accommodation-card-place">
+            Lagoona española
+          </p>
+          <p class="accommodation-card-gray-text accommodation-card-place">
+            Барселона, Испания
+          </p>
+          <a href="#" class="button accommodation-card-button">Номера</a>
         </div>
       </div>
+
       <div class="section-accommodation-card">
         <img
           src="/Layout-SKLB/img/Accommodation/24.png"
           alt="Lagoona son típicas"
         />
         <div class="section-accommodation-card-content">
-              <span>
+              <span class="section-accommodation-card-title">
                 <span class="accommodation-card-gray-text">от</span>
                 <strong class="accommodation-card-price">5 148 р</strong>
-                <span class="section-description">/ ночь</span>
-                <span
+                <span>/ ночь</span>
+                <span class="accommodation-card-stars"
                 ><img
                   src="/Layout-SKLB/img/icons/star.svg"
                   alt="Рейтинг 4 из 5"/>
@@ -398,22 +409,23 @@
                   <img src="/Layout-SKLB/img/icons/star_non_active.svg" alt=""
                   /></span>
               </span>
-          <p class="section-description">Lagoona son típicas</p>
-          <p class="accommodation-card-gray-text">Барселона, Испания</p>
-          <a href="#" class="button">Номера</a>
+          <p class="section-description accommodation-card-place">Lagoona son típicas</p>
+          <p class="accommodation-card-gray-text accommodation-card-place">Барселона, Испания</p>
+          <a href="#" class="button accommodation-card-button">Номера</a>
         </div>
       </div>
+
       <div class="section-accommodation-card">
         <img
           src="/Layout-SKLB/img/Accommodation/26.png"
           alt="Lagoona de la guerra"
         />
         <div class="section-accommodation-card-content">
-              <span>
+              <span class="section-accommodation-card-title">
                 <span class="accommodation-card-gray-text">от</span>
                 <strong class="accommodation-card-price">6 254 р</strong>
-                <span class="section-description">/ ночь</span>
-                <span
+                <span>/ ночь</span>
+                <span class="accommodation-card-stars"
                 ><img
                   src="/Layout-SKLB/img/icons/star.svg"
                   alt="Рейтинг 5 из 5"/>
@@ -423,22 +435,23 @@
                   <img src="/Layout-SKLB/img/icons/star.svg" alt=""
                   /></span>
               </span>
-          <p class="section-description">Lagoona de la guerra</p>
-          <p class="accommodation-card-gray-text">Барселона, Испания</p>
-          <a href="#" class="button">Номера</a>
+          <p class="section-description accommodation-card-place">Lagoona de la guerra</p>
+          <p class="accommodation-card-gray-text accommodation-card-place">Барселона, Испания</p>
+          <a href="#" class="button accommodation-card-button">Номера</a>
         </div>
       </div>
+
       <div class="section-accommodation-card">
         <img
           src="/Layout-SKLB/img/Accommodation/27.png"
           alt="Lagoona mentira piadosa"
         />
         <div class="section-accommodation-card-content">
-              <span>
+              <span class="section-accommodation-card-title">
                 <span class="accommodation-card-gray-text">от</span>
                 <strong class="accommodation-card-price">6 320 р</strong>
                 <span>/ ночь</span>
-                <span
+                <span class="accommodation-card-stars"
                 ><img
                   src="/Layout-SKLB/img/icons/star.svg"
                   alt="Рейтинг 5 из 5"/>
@@ -448,22 +461,23 @@
                   <img src="/Layout-SKLB/img/icons/star.svg" alt=""
                   /></span>
               </span>
-          <p class="section-description">Lagoona mentira piadosa</p>
-          <p class="accommodation-card-gray-text">Барселона, Испания</p>
-          <a href="#" class="button">Номера</a>
+          <p class="section-description accommodation-card-place">Lagoona mentira piadosa</p>
+          <p class="accommodation-card-gray-text accommodation-card-place">Барселона, Испания</p>
+          <a href="#" class="button accommodation-card-button">Номера</a>
         </div>
       </div>
+
       <div class="section-accommodation-card">
         <img
           src="/Layout-SKLB/img/Accommodation/29.png"
           alt="Lagoona empujar la creatividad"
         />
         <div class="section-accommodation-card-content">
-              <span>
+              <span class="section-accommodation-card-title">
                 <span class="accommodation-card-gray-text">от</span>
                 <strong class="accommodation-card-price">6 457 р</strong>
-                <span class="section-description">/ ночь</span>
-                <span
+                <span>/ ночь</span>
+                <span class="accommodation-card-stars"
                 ><img
                   src="/Layout-SKLB/img/icons/star.svg"
                   alt="Рейтинг 4 из 5"/>
@@ -473,22 +487,23 @@
                   <img src="/Layout-SKLB/img/icons/star_non_active.svg" alt=""
                   /></span>
               </span>
-          <p class="section-description">Lagoona empujar la creatividad</p>
-          <p class="accommodation-card-gray-text">Барселона, Испания</p>
-          <a href="#" class="button">Номера</a>
+          <p class="section-description accommodation-card-place">Lagoona empujar la creatividad</p>
+          <p class="accommodation-card-gray-text accommodation-card-place">Барселона, Испания</p>
+          <a href="#" class="button accommodation-card-button">Номера</a>
         </div>
       </div>
+
       <div class="section-accommodation-card">
         <img
           src="/Layout-SKLB/img/Accommodation/29-1.png"
           alt="Lagoona el retorno"
         />
         <div class="section-accommodation-card-content">
-              <span>
+              <span class="section-accommodation-card-title">
                 <span class="accommodation-card-gray-text">от</span>
                 <strong class="accommodation-card-price">6 320 р</strong>
-                <span class="section-description">/ ночь</span>
-                <span
+                <span>/ ночь</span>
+                <span class="accommodation-card-stars"
                 ><img
                   src="/Layout-SKLB/img/icons/star.svg"
                   alt="Рейтинг 4 из 5"/>
@@ -498,22 +513,23 @@
                   <img src="/Layout-SKLB/img/icons/star_non_active.svg" alt=""
                   /></span>
               </span>
-          <p class="section-description">Lagoona el retorno</p>
-          <p class="accommodation-card-gray-text">Барселона, Испания</p>
-          <a href="#" class="button">Номера</a>
+          <p class="section-description accommodation-card-place">Lagoona el retorno</p>
+          <p class="accommodation-card-gray-text accommodation-card-place">Барселона, Испания</p>
+          <a href="#" class="button accommodation-card-button">Номера</a>
         </div>
       </div>
+
       <div class="section-accommodation-card">
         <img
           src="/Layout-SKLB/img/Accommodation/30.png"
           alt="Lagoona mentira piadosa"
         />
         <div class="section-accommodation-card-content">
-              <span>
+              <span class="section-accommodation-card-title">
                 <span class="accommodation-card-gray-text">от</span>
                 <strong class="accommodation-card-price">6 505 р</strong>
-                <span class="section-description">/ ночь</span>
-                <span
+                <span>/ ночь</span>
+                <span class="accommodation-card-stars"
                 ><img
                   src="/Layout-SKLB/img/icons/star.svg"
                   alt="Рейтинг 5 из 5"/>
@@ -523,22 +539,23 @@
                   <img src="/Layout-SKLB/img/icons/star.svg" alt=""
                   /></span>
               </span>
-          <p class="section-description">Lagoona mentira piadosa</p>
-          <p class="accommodation-card-gray-text">Барселона, Испания</p>
-          <a href="#" class="button">Номера</a>
+          <p class="section-description accommodation-card-place">Lagoona mentira piadosa</p>
+          <p class="accommodation-card-gray-text accommodation-card-place">Барселона, Испания</p>
+          <a href="#" class="button accommodation-card-button">Номера</a>
         </div>
       </div>
+
       <div class="section-accommodation-card">
         <img
           src="/Layout-SKLB/img/Accommodation/31.png"
           alt="Lagoona suerte siguió siempre"
         />
         <div class="section-accommodation-card-content">
-              <span>
+              <span class="section-accommodation-card-title">
                 <span class="accommodation-card-gray-text">от</span>
                 <strong class="accommodation-card-price">6 824 р</strong>
-                <span class="section-description">/ ночь</span>
-                <span
+                <span>/ ночь</span>
+                <span class="accommodation-card-stars"
                 ><img
                   src="/Layout-SKLB/img/icons/star.svg"
                   alt="Рейтинг 4 из 5"/>
@@ -548,16 +565,19 @@
                   <img src="/Layout-SKLB/img/icons/star_non_active.svg" alt=""
                   /></span>
               </span>
-          <p class="section-description">Lagoona suerte siguió siempre</p>
-          <p class="accommodation-card-gray-text">Барселона, Испания</p>
-          <a href="#" class="button">Номера</a>
+          <p class="section-description accommodation-card-place">Lagoona suerte siguió siempre</p>
+          <p class="accommodation-card-gray-text accommodation-card-place">Барселона, Испания</p>
+          <a href="#" class="button accommodation-card-button">Номера</a>
         </div>
       </div>
+
       <div class="section-accommodation-card">
         <a href="#" class="section-accommodation-card-link">
-              <span class="accommodation-card-link-text">
-                Посмотреть все варианты
-                <span class="section-special-offers-card-link">
+          <div class="accommodation-card-link-container">
+                <span class="accommodation-card-link-text">
+                  Посмотреть все варианты
+                </span>
+            <span class="section-special-offers-card-link-decoration">
                   <svg
                     width="11"
                     height="18"
@@ -566,7 +586,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                   ></svg>
                 </span>
-              </span>
+          </div>
         </a>
       </div>
     </div>
